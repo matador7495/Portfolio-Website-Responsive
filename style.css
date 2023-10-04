@@ -18,3 +18,48 @@
     --h2-font: 1.9rem;
     --p-font: 1rem;
 }
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg-color);
+    padding: 24px 14%;
+    transition: 0.3s;
+}
+.logo{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+span{
+    color: var(--main-color);
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.navbar a:hover{
+    background: var(--main-color);  
+    transition: 0.3s; 
+}
+#menu-icon{
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+
+}
