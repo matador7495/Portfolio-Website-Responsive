@@ -250,22 +250,76 @@ section {
     transform: translateY(-15px);
     box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 70%);
 }
-.cta{
+
+.cta {
     background-color: #0b0b13;
     width: 100%;
     padding: 150px 0;
     text-align: center;
     margin: 100px auto;
 }
-.cta h4{
+
+.cta h4 {
     color: var(--text-color);
     font-size: 1.6rem;
     font-weight: 300;
     margin-bottom: 30px;
 }
-.cta h2{
+
+.cta h2 {
     color: var(--main-color);
     font-size: 4rem;
     font-weight: 300;
     margin-bottom: 40px;
+}
+
+.resume-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+    grid-gap: 3rem;
+    align-items: center;
+    margin-top: 4.4rem;
+}
+
+.box {
+    background-color: #0b0b13;
+    padding: 40px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.40s;
+}
+
+.box h6 {
+    color: #3e4455;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.box h4 {
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 13px;
+}
+
+.box p {
+    font-size: var(--p-font);
+    font-weight: 300;
+    margin-bottom: 1.2rem;
+    line-height: 1.8rem;
+    color: var(--2nd-main-color);
+    text-align: justify;
+}
+
+.box h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--2nd-main-color);
+}
+
+.box:hover {
+    transform: translateY(-15px);
+    box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 70%);
 }
