@@ -378,3 +378,12 @@ form .send-btn:hover {
     color: var(--main-color);
     box-shadow: 4px 4px var(--main-color);
 }
+
+.copyright {
+    text-align: center;
+    padding: 30px;
+    color: var(--2nd-main-color);
+    background-color: #0b0b13;
+    margin-top: 3rem;
+    line-height: 1.8rem;
+}
