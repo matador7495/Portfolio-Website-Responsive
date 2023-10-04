@@ -282,7 +282,7 @@ section {
 }
 
 .box {
-    background-color: #0b0b13;
+    background-color: red;
     padding: 40px 30px;
     border-radius: 5px;
     cursor: pointer;
@@ -310,7 +310,7 @@ section {
     margin-bottom: 1.2rem;
     line-height: 1.8rem;
     color: var(--2nd-main-color);
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .box h5 {
@@ -481,5 +481,19 @@ form .send-btn:hover {
 
     .about-img {
         order: 2;
+    }
+}
+
+@media (max-width: 576px) {
+    .box {
+        max-width: 85%;
+    }
+
+    .cta h2 {
+        font-size: 3.2rem;
+    }
+
+    .center h3 {
+        font-size: 20px;
     }
 }
