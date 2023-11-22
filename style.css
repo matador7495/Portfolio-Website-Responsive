@@ -282,7 +282,7 @@ section {
 }
 
 .box {
-    background-color: red;
+    background-color: #0b0b13;
     padding: 40px 30px;
     border-radius: 5px;
     cursor: pointer;
